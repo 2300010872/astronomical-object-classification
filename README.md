@@ -1,6 +1,6 @@
 # Astronomical Object Classification
 
-基于恒星分类数据集的表格三分类实验。任务是根据测光特征和红移信息，将天体划分为 `GALAXY`、`QSO`、`STAR` 三类。
+基于天体测光数据的表格分类实验。任务是根据不同波段下的测光特征和红移信息，预测天体的光谱类型 `spectral_type`。
 
 ## 数据
 
@@ -57,7 +57,7 @@ u, g, r, i, z, redshift, spectral_type
 
 ```bash
 pip install -r requirements.txt
-python -m src.train --data data/star_classification.csv --target spectral_type
+python -m src.train --data data/sample_star_classification.csv --target spectral_type --output-dir results
 ```
 
 运行结果保存在 `results/` 目录下。
