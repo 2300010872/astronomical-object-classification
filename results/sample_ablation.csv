@@ -1,0 +1,5 @@
+model,accuracy,balanced_accuracy,redshift_weight,use_color_features,uniform_prior
+no_redshift_weight,0.625,0.6197916666666667,1.0,True,True
+weighted_hist_nb,0.6041666666666666,0.5604166666666667,2.0,True,True
+empirical_prior,0.6041666666666666,0.5260416666666667,2.0,True,False
+no_color_features,0.4166666666666667,0.38229166666666664,2.0,False,True
