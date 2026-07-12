@@ -5,5 +5,5 @@
 需要包含以下字段：
 
 ```text
-u, g, r, i, z, redshift, class
+u, g, r, i, z, redshift, spectral_type
 ```
