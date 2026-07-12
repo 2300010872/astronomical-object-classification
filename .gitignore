@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# raw data
+data/*.csv
+data/*.zip
+!data/sample_star_classification.csv
+!data/.gitkeep
+!data/README.md
+
+# generated outputs
+results/*.csv
+results/*.txt
+!results/sample_metrics.csv
+!results/sample_ablation.csv
+!results/sample_classification_report.txt
+!results/.gitkeep
+!results/README.md
