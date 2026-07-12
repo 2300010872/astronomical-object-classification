@@ -13,10 +13,10 @@ data/star_classification.csv
 数据文件至少包含以下字段：
 
 ```text
-u, g, r, i, z, redshift, class
+u, g, r, i, z, redshift, spectral_type
 ```
 
-其中 `u`、`g`、`r`、`i`、`z` 为不同波段下的测光信息，`redshift` 为红移特征，`class` 为目标类别。
+其中 `u`、`g`、`r`、`i`、`z` 为不同波段下的测光信息，`redshift` 为红移特征，`spectral_type` 为目标类别。
 
 ## 方法
 
@@ -57,7 +57,7 @@ u, g, r, i, z, redshift, class
 
 ```bash
 pip install -r requirements.txt
-python -m src.train --data data/star_classification.csv --target class
+python -m src.train --data data/star_classification.csv --target spectral_type
 ```
 
 运行结果保存在 `results/` 目录下。
